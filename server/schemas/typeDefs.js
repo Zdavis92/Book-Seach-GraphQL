@@ -5,7 +5,7 @@ const typeDefs = gql`
         _id: ID
         username: String
         email: String
-        bookCount: INT
+        bookCount: Int
         savedBooks: [Book]
     }
     
@@ -14,7 +14,6 @@ const typeDefs = gql`
         description: String
         bookId: String
         image: String
-        link: String
         title: String
     }
     
@@ -32,7 +31,6 @@ const typeDefs = gql`
         description: String
         bookId: String
         image: String
-        link: String
         title: String
     }
     
